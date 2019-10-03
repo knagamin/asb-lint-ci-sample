@@ -1,0 +1,8 @@
+---
+- name: Playbook for lint checking
+  hosts: localhost
+  become: true
+  roles:
+    - test_role
+
+# vim:sw=2:ts=2:et:

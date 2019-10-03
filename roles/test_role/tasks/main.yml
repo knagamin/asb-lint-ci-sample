@@ -1,0 +1,10 @@
+---
+# tasks file for install_package
+
+- name: Just run 'ls'
+  shell: ls
+  changed_when: true
+
+- name: Show a variable
+  debug:
+    msg: "${ham}"
