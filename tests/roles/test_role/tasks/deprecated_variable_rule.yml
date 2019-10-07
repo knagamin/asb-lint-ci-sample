@@ -1,5 +1,0 @@
----
-# tasks file for testing CUSTOM001
-- name: Show a variable
-  debug:
-    msg: "${ham}"

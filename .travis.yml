@@ -13,7 +13,7 @@ install:
   - pip install ansible-lint==${ANSIBLE_LINT}
 
 script:
-  - ansible-lint -R -r lint/rules site.yml
+  - make test
 
 notification:
   email: false
