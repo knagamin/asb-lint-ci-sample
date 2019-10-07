@@ -2,18 +2,23 @@
 dist: xenial
 sudo: true
 language: python
-
 python:
   - 3.7
 env:
   - ANSIBLE_LINT=4.1
   - ANSIBLE_LINT=3.5
+addons:
+  apt:
+    sources:
+      - sourceline: 'ppa:duggan/bats'
+      packages:
+        - bats
 
 install:
   - pip install ansible-lint==${ANSIBLE_LINT}
 
 script:
-  - ansible-lint -R -r lint/rules site.yml
+  - bats tests/deprecated_vars.bats
 
 notification:
   email: false
