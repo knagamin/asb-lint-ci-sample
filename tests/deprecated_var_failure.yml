@@ -1,0 +1,8 @@
+---
+# tasks file for testing CUSTOM001
+- name: Test
+  host: all
+  tasks:
+    - name: Show a variable
+      debug:
+        msg: "${ham}"

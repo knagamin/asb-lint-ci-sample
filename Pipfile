@@ -8,6 +8,8 @@ verify_ssl = true
 [packages]
 ansible = "==2.9.0rc1"
 ansible-lint = "*"
+e1839a8 = {editable = true,path = "."}
+myasblintrules = {editable = true,path = "."}
 
 [requires]
 python_version = "3.7"
