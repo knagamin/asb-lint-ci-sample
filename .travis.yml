@@ -4,6 +4,7 @@ sudo: true
 language: python
 
 python:
+  - 2.7
   - 3.7
 env:
   - ANSIBLE_LINT=4.1
