@@ -4,5 +4,4 @@ TEST_DIR=./rules/tests
 .PHONY: test
 
 test:
-	${RUNTEST} 
-
+	${RUNTEST}
