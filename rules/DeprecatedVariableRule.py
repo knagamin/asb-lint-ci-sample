@@ -1,4 +1,7 @@
 from ansiblelint import AnsibleLintRule
+"""
+A sample custom rule from example in ansible-lint document.
+"""
 
 
 class DeprecatedVariableRule(AnsibleLintRule):
