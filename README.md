@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/knagamin/asb-lint-ci-sample.svg?branch=master)](https://travis-ci.org/knagamin/asb-lint-ci-sample)
+
 # asb-lint-ci-sample
 A sample to develop custom rules of ansible lint
 
