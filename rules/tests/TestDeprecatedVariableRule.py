@@ -1,6 +1,6 @@
 import unittest
 from ansiblelint import RulesCollection, Runner
-from rules.DeprecatedVariableRule import DeprecatedVariableRule
+from rules import DeprecatedVariableRule
 
 
 class TestDeprecatedVariableRule(unittest.TestCase):

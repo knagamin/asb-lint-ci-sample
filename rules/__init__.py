@@ -1,0 +1,1 @@
+from .DeprecatedVariableRule import DeprecatedVariableRule
